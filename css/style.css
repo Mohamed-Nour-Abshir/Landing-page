@@ -1,0 +1,107 @@
+/* navbar style  */
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background: #e6f4fc;
+    color: #c6c9cf;
+}
+header nav{
+    display: flex;
+    justify-content: space-around;
+}
+header nav .logo{
+    color: #4aa7f7;
+}
+header nav ul{
+    list-style: none;
+    display: flex;
+}
+header nav ul li{
+    margin-left: 20px;
+}
+header nav ul a{
+    color: #c6c9cf;
+    text-decoration: none;
+}
+header nav ul a.active{
+    color: #4aa7f7;
+}
+header nav ul a:hover{
+    color: #4aa7f7;
+}
+header nav ul a.btn{
+    background: #4aa7f7;
+    color: #fff;
+    padding: 8px 20px;
+    margin-left: 40px;
+    border-radius: 5px;
+}
+
+.hero{
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-columns: 1fr 1fr;
+
+}
+.hero img{
+    width: 500px;
+    margin-top: 30px;
+}
+.hero .context{
+    margin-top: 100px;
+    color: #000;
+    margin-left: 180px;
+}
+.hero .context .doctor-h2{
+    color: #4aa7f7;
+}
+.hero .context h1{
+    line-height: 1.5;
+}
+.hero .context p{
+    color: #c6c9cf;
+    line-height: 2;
+    margin-bottom: 30px;
+}
+.hero .context .chat-btn{
+    background: #4aa7f7;
+    color: #fff;
+    padding: 8px 20px;
+    margin-left: 40px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+.hero .context .appoinment-btn{
+    text-decoration: none;
+    background: #f9f9f9;
+    border: 1px solid #4aa7f7;
+    color: #4aa7f7;
+    padding: 8px 20px;
+    margin-left: 40px;
+    border-radius: 5px;
+}
+.cta{
+    margin-top: 50px;
+}
+.cta h1{
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+
+.items {
+    display: flex;
+    justify-content: space-around; 
+    align-items: center; 
+    margin: 0 30px;
+}
+
+.col {
+    flex: 1;
+    max-width: 300px; 
+    text-align: center;
+}
